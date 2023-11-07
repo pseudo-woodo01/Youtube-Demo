@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>
+      First website
+    </title>
+
+    <style>
+      
+      .stretch-box {
+        padding-bottom: 8px;
+        padding-top:8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 20px;
+        font-size: 18px;
+        background-color: rgb(34, 176, 34);
+        cursor: pointer;
+        transition: padding .3s;
+      }
+
+      .stretch-box:hover {
+        padding-bottom: 20px;
+        padding-top:20px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+      }
+
+      .shadow-box {
+        padding-bottom: 8px;
+        padding-top:8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 20px;
+        font-size: 18px;
+        background-color: rgb(34, 176, 34);
+        cursor: pointer;
+        box-shadow: 2px 3px 5px rgba(0, 0, 0, .3);
+      }
+
+      .shadow-box:active {
+        margin-top: 6px;
+        margin-left: 25px;
+        
+        box-shadow: none;
+      }
+    
+      .pagination {
+        margin-top: 20px;
+      }
+
+      .page-button {
+        padding-bottom: 8px;
+        padding-top:8px;
+        padding-left: 7px;
+        padding-right: 7px;
+        background-color: rgb(236, 233, 233);
+        color: rgb(42, 42, 42);
+        border-style: solid;
+        border-width: 1px;
+        font-size: 15px;
+        transition: opacity 0.15s;
+        
+      }
+
+      .page-button:hover {
+        opacity: .7;
+      }
+
+      .search-result {
+        margin-left: 4px;
+        margin-right: 4px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div class="boxes">
+      <button class="stretch-box" >
+        Stretch
+      </button>
+
+      <button class="shadow-box" >
+        Shadow
+      </button>
+    </div>
+
+    <div class="pagination" >
+
+      <button class="page-button">
+        Back
+      </button>
+    
+      <a class="search-result" href="BLANK">1</a>
+    
+      <a class="search-result" href="BLANK">2</a>
+    
+      <a class="search-result"  href="BLANK">3</a>
+    
+      <button class="page-button">
+        Next
+      </button>
+    </div>  
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Practice 14
+    </title>
+    <style>
+      .body{
+        height: 3000px;
+      }
+
+      .right-sidebar{
+        background-color: green;
+        color: white;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        width: 100px;
+      }
+
+      .overlay{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, .8);
+      }
+      .modal{
+        background-color: white;
+        width: 400px;
+        height: 120px;
+        border-radius: 5px;
+        line-height: 38px;
+        padding-top: 14px;
+        padding-left: 20px;
+
+      }
+
+      .modal-title{
+        font-size: 26px;
+        font-weight: bold;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="right-sidebar" >
+      right sidebar
+    </div>
+
+    <div class="overlay" >
+      <div class="modal" >
+        <div class="modal-title" >
+          ERROR
+        </div>
+        <div class="modal-content" >
+          You do not have credentials
+        </div>
+        <div class="close-button" >
+          <button>Close</button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

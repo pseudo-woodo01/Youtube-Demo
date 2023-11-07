@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Practice 15
+    </title>
+    <style>
+
+      .x{
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        
+        font-family: Arial;
+        font-size: 16px;
+
+        background-color: black;
+        color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        border-radius: 24px;
+
+      }
+
+      .div2{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        background-color: gray;
+        width: 320px;
+        height: 180px;
+      }
+
+      .div2-x{
+        position: absolute;
+        left: -12px;
+        top: -14px;
+        
+        font-family: Arial;
+        font-size: 16px;
+
+        background-color: black;
+        color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        border-radius: 24px;
+
+      }
+
+      .div2-time{
+        position: absolute;
+        right: 8px;
+        bottom: 6px;
+        
+        font-family: Arial;
+        font-size: 14px;
+
+        background-color: black;
+        color: white;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+
+
+      }
+      
+      .mypc-container{
+        position: relative;
+
+        display: inline-block;
+      }
+      
+
+      .mypc{
+        width: 300px;
+        height: 300px;
+      }
+
+      .mypc-sale{
+
+        position: absolute;
+        right: 8px;
+        top: 36px;
+        
+        font-family: Arial;
+        font-size: 14px;
+
+        background-color: black;
+        color: white;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        }
+
+        .overlay{
+          position: absolute;
+          bottom: 0;
+          left: 2px;
+          right: 4px;
+          height: 100px;
+          background-color: rgba(199, 199, 199, .5);
+
+
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .add-modal{
+          font-size: 11px;
+          font-family: arial;
+          opacity: 1;
+
+          border: solid;
+          border-width: 1px;
+          background-color: white;
+          color: black;
+          padding-right: 8px;
+          padding-left: 8px;
+          padding-top: 4px;
+          padding-bottom: 4px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="x" >
+      X
+    </div>
+
+    <div class="div2" >
+      <div class="div2-x" >
+        X
+      </div>
+      <div class="div2-time" >
+        0:29
+      </div>
+    </div>
+
+    <div class="mypc-container" >
+      <img class="mypc" src="Practice-images/shopping.webp">
+      <div class="mypc-sale" >
+        80% OFF
+      </div>
+
+      <div class="overlay" >
+        <button class="add-modal" >
+          Add to Cart
+        </button>
+      </div>
+
+    </div>
+
+
+
+  </body>
+</html>
